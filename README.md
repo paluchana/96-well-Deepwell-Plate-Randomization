@@ -1,4 +1,4 @@
-# Acetogenic Strains Evaluation
+# Randomization of 96-well Deepwell Plates
 
 ## Overview
 
