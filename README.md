@@ -20,10 +20,10 @@ To use the scripts in this repository, ensure you have R installed along with th
 # Install required packages
 install.packages("ggplot2")   # For data visualization
 install.packages("ggplate")    # For plate plotting
-
+```
 ## Usage
 Clone this repository to your local machine:
-
+```R
 # Copy code
 git clone https://github.com/paluchana/96-well-Deepwell-Plate-Randomization.git
 cd acetogenic-strains-evaluation
@@ -32,8 +32,6 @@ cd acetogenic-strains-evaluation
 
 # Run the following R code to generate the plots:
 
-R
-Copy code
 # Load necessary libraries
 library(ggplate)
 
@@ -45,8 +43,9 @@ myLetters <- function(length.out) {
          function(x) paste(rep(a[x], grp[x]), collapse = ""),
          character(1L))
 }
-
+```
 ## Data
+```R
 # Continue using the provided R code with your provided data
 
 Follow the comments in the R script to understand how to analyze your data and visualize results.
@@ -54,11 +53,13 @@ Follow the comments in the R script to understand how to analyze your data and v
 # Adjust Parameters
 
 Modify parameters such as random_seed_sfxx and random_seed_sfyy to set different seeds for randomization, ensuring diverse experimental conditions for your plates.
+```
 
 ## Results
-
+```R
 Check the output plots generated in your working directory. These visualizations provide insights into the growth and metabolic activity of the acetogenic strains.
-
+```
 ## Contributing
-
+```R
 Contributions to this repository are welcome! If you have suggestions for improvements or would like to add features, please fork the repository and submit a pull request. You can also open issues for any bugs or enhancements.
+```
